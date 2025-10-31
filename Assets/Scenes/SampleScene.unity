@@ -1422,7 +1422,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 253b36d16bd44a544b9b8bd5fde6d4b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Ball
-  speed: 1
+  speed: 5
 --- !u!1 &1527287841
 GameObject:
   m_ObjectHideFlags: 0
