@@ -13,16 +13,14 @@ public class unkougokasu9829 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (transform.position.y>=0)
+        
+        if (transform.position.y<=0)
         {
-            transform.Translate(Vector3.up * speed * Time.deltaTime);
+            speed = -speed;
             Debug.Log("‚¤‚ñ‚±‚ªˆø‚«•Ô‚·");
         }
-        if (transform.position.x >= 30)
-        {
-            transform.Translate(Vector3.down*speed*Time.deltaTime);
-        }
-        transform.Translate(Vector3.down*speed*Time.deltaTime);//‚¤‚ñ‚±‚ª“®‚­
+        
+        transform.Translate(Vector3.down*speed);//‚¤‚ñ‚±‚ª“®‚­
     }
 }
    
