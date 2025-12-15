@@ -1,0 +1,26 @@
+using UnityEngine;
+
+public class unko0121 : MonoBehaviour
+{
+    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    float speed = 0.2f;
+    void Start()
+    {
+        
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        transform.Translate(Vector3.down * speed);
+
+        if (transform.position.y <= 1)
+        {
+            speed = -speed;
+        } 
+        if(transform.position.y >= 10)
+        {
+            speed = speed;
+        }
+    }
+}
