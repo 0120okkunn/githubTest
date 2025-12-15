@@ -18,9 +18,6 @@ public class unko0121 : MonoBehaviour
         {
             speed = -speed;
         } 
-        if(transform.position.y >= 10)
-        {
-            speed = speed;
-        }
+
     }
 }
