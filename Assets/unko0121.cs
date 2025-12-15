@@ -3,7 +3,7 @@ using UnityEngine;
 public class unko0121 : MonoBehaviour
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
-    float speed = 0.2f;
+    float speed = 0.1f;
     void Start()
     {
         
