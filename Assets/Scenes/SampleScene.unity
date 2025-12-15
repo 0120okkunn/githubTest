@@ -1365,6 +1365,7 @@ GameObject:
   - component: {fileID: 1743709159}
   - component: {fileID: 1743709158}
   - component: {fileID: 1743709157}
+  - component: {fileID: 1743709160}
   m_Layer: 0
   m_Name: unko9829
   m_TagString: Untagged
@@ -1464,6 +1465,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1743709155}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1743709160
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1743709155}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97052a494fc67a344826be66b631142a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::unkougokasu9829
 --- !u!1 &1822695228
 GameObject:
   m_ObjectHideFlags: 0
